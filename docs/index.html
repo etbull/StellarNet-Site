@@ -844,7 +844,7 @@
         }
       } catch (error) {
         console.error('Error loading exoplanet data:', error);
-        alert('Failed to load exoplanet data. Check console for details.\nPath: backend/data/inferenceData.json');
+        alert('Hey there! This is a static version of StellarNet to minimise hosting costs. To see the read data, download the docker file OR view the video demo on the Github!');
         exoplanetData = [];
       }
     }
@@ -979,6 +979,7 @@
 
     // Search for new exoplanets
     searchBtn.addEventListener('click', () => {
+      alert('Hey there! This is a static version of StellarNet to minimise hosting costs. To upload real data, download the docker file OR view the video demo on the Github!');
       menuContainer.style.display = 'none';
       uploadInterface.classList.add('active');
     });
